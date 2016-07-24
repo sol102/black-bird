@@ -1,0 +1,103 @@
+html,body{
+  height: 100%;
+  width:100%;
+  margin: 0px;
+}
+*{margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.cover{
+  background: url("../img/cover.jpg") no-repeat;
+  background-size: cover;
+  height:100vh;
+  overflow: hidden;
+}
+.bird{
+  position: absolute;
+  height: 272px;
+  bottom: 0px;
+  top:722px;
+  left:0px;
+}
+.flying-bird{
+  height: 300px;
+  top:0;
+  right: 0px;
+  position: absolute;
+}
+.cover-name{
+  margin-top: 205px;
+}
+.name{
+  display: flex;
+  justify-content: center;
+}
+.content{
+  background-color: white;
+  height: 10000px;
+  display: flex ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center ;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+.clothes-pics{
+  position: absolute;
+  width: 780px;
+  padding-top: 300px;
+  left:33%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+}
+.model{
+  opacity: .5;
+  margin-bottom:5px;
+  margin-left:10px;
+  transform:translateX(800px);
+  transition: all 1s ease-in-out;
+  overflow: hidden;
+  display: block;
+}
+.img-model{
+  opacity: 1;
+  height: 300px;
+  width: 225px;
+  border-radius: 5%;
+}
+.is-showing{
+  opacity:1;
+  transform:translateX(0px);
+}
+.is-showing:hover{
+
+}
+h1{
+  display: inline-block;
+  height: 12px;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 54.1px;
+}
+p{
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 300px;
+}
+.parascope{
+  height: 600px;
+  width: 511px;
+  top: 1325px;
+  position: absolute;
+  left: 679px;
+  background: url('../img/model/model3.jpg');
+  background-attachment: fixed;
+  border-radius: 50%;
+  background-size: cover;
+  }
